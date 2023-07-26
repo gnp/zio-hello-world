@@ -1,6 +1,11 @@
 ThisBuild / scalaVersion := "3.3.0"
 ThisBuild / organization := "com.example"
 
+addCommandAlias(
+  "check",
+  "; scalafmtSbtCheck; scalafmtCheckAll"
+)
+
 lazy val zioVersion = "2.0.15"
 
 lazy val hello = (project in file("."))
