@@ -16,11 +16,11 @@
 
 package com.gregopurdy
 
-import zio.ZIOAppDefault
+import zio.Console._
 import zio.Scope
 import zio.ZIO
 import zio.ZIOAppArgs
-import zio.Console._
+import zio.ZIOAppDefault
 
 object HelloWorldMain extends ZIOAppDefault {
 
