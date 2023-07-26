@@ -1,6 +1,9 @@
 ThisBuild / scalaVersion := "3.3.0"
 ThisBuild / organization := "com.gregorpurdy"
 
+ThisBuild / semanticdbEnabled := true
+ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
+
 addCommandAlias(
   "check",
   "; scalafmtSbtCheck; scalafmtCheckAll"
