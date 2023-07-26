@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "3.2.2"
+ThisBuild / scalaVersion := "3.3.0"
 ThisBuild / organization := "com.example"
 
 lazy val zioVersion = "2.0.15"
