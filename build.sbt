@@ -1,5 +1,8 @@
 ThisBuild / scalaVersion := "3.3.0"
 ThisBuild / organization := "com.gregorpurdy"
+ThisBuild / organizationName := "Gregor Purdy"
+ThisBuild / startYear := Some(2023)
+ThisBuild / licenses := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
 
 ThisBuild / semanticdbEnabled := true
 ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
