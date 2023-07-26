@@ -9,7 +9,7 @@ ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
 
 addCommandAlias(
   "check",
-  "; scalafmtSbtCheck; scalafmtCheckAll"
+  "; headerCheck; scalafmtSbtCheck; scalafmtCheckAll; scalafixAll --check"
 )
 
 lazy val zioVersion = "2.0.15"
