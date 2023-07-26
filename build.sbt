@@ -1,7 +1,7 @@
 ThisBuild / scalaVersion := "3.2.2"
 ThisBuild / organization := "com.example"
 
-lazy val zioVersion = "2.0.13"
+lazy val zioVersion = "2.0.15"
 
 lazy val hello = (project in file("."))
   .settings(
