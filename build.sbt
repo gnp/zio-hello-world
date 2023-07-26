@@ -1,5 +1,5 @@
 ThisBuild / scalaVersion := "3.3.0"
-ThisBuild / organization := "com.example"
+ThisBuild / organization := "com.gregorpurdy"
 
 addCommandAlias(
   "check",
