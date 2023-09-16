@@ -12,7 +12,7 @@ addCommandAlias(
   "; headerCheck; scalafmtSbtCheck; scalafmtCheckAll; scalafixAll --check"
 )
 
-lazy val zioVersion = "2.0.16"
+lazy val zioVersion = "2.0.17"
 
 lazy val hello = (project in file("."))
   .settings(
