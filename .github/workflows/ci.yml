@@ -57,7 +57,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        scala: ['3.3.3']
+        scala: ['3.4.1']
         java: ['17']
     steps:
     - name: Checkout current branch
